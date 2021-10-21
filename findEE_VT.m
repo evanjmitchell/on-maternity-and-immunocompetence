@@ -1,5 +1,3 @@
-(* ::Package:: *)
-
 function endemic = findEE_VT(b, v, mu, beta_ff, beta_fm, beta_mf, beta_mm, ...
     gamma_f, gamma_m, alpha_f, alpha_m, stepEE, tol, maxit)
 % A script to approximate the endemic equilibrium of the resident system
