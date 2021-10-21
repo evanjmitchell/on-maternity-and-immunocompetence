@@ -1,11 +1,11 @@
-% A script to generate the data for the main figure that plots the 
-% evolutionary outcome for various combinations of vertical 
-% transmission v and cost difference (c_f - c_m).
+(* ::Package:: *)
+
+% A script to demo the use of the Matlab code files and generate a small example data set .
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % choose a set of cost differences
-cdiff_vals = linspace(-0.03, 0.03, 101);
+cdiff_vals = linspace(-0.03, 0.03, 5);
 % choose a set of vertical transmission values
-v_vals = linspace(0, 0.9, 100);
+v_vals = linspace(0, 0.9, 4);
 % setup empty array to store data
 points = zeros(11, length(cdiff_vals)*length(v_vals));
 points(1, :) = repelem(cdiff_vals, length(v_vals));
@@ -26,9 +26,9 @@ parfor i = 1:size(points, 2)
     v = v_vals(i);
     css = findCSS_VT([5, 5.5, 3, 3.2], 10, 0.15 + cdiff, 0.15 - cdiff, ...
         v, 4, 10, 1, 1, 1, 0.001, 0.001, 10000, 10, 1e-5);
-    if sum(css)/14 == 1000
+    if sum (css)/14 == 1000
         points(3, i) = 5;
-    elseif sum(css)/14 == 2000
+    elseif sum (css)/14 == 2000
         points(3, i) = 6;
     elseif isnan(sum(css))
         points(3, i) = 7;
@@ -46,8 +46,8 @@ parfor i = 1:size(points, 2)
         end
     end
     eqmVals = [css(1:4), css(11:14)];
-    tmp(:, i) = eqmVals.';
+    tmp(:, i) = eqmVals . ';
 end
 points(4:11, :) = tmp;
 % save data as xlsx file
-writematrix(points, 'dataVTvsCostDiff10k_v2.xlsx');
+writematrix(points, 'data_demo . xlsx');
