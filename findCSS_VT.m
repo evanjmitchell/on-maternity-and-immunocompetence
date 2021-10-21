@@ -2,14 +2,17 @@ function css = findCSS_VT(init_vals, b_max, c_f, c_m, v, mu, beta_max, ...
     d, stepEE, tolEE, maxitEE, stepCSS, tolCSS)
 % A script to numerically approximate the CSS values of gamma_f, gamma_m, 
 % alpha_f, and alpha_m. init_vals is a four-element vector giving the starting 
-% point for the mutant host trajectory (the order is gamma_f, gamma_m). The 
-% function returns a 14-element vector with elements (in order): 
-% CSS values of gamma_f, gamma_m, alpha_f, alpha_m, 0/1 (fail/pass)
-% for ESS check on gamma, values of the trace and determinant used
-% to check the ESS condition for gamma, 0/1 (fail/pass) for ESS check on
-% alpha, values of the trace and determinant used to check the ESS 
-% condition for alpha, equilibrium values S_f, S_m, I_f, I_m of resident
-% system at CSS.
+% point for the mutant host trajectory (the order is gamma_f, gamma_m). 
+% stepEE, tolEE, and maxitEE specify the step size, tolerance, and maximum
+% iterations, respectively, to be used in approximating the endemic 
+% equilibrium. stepCSS and tolCSS specify the step size and tolerance,
+% respectively, in approximating the CSS. The function returns a 
+% 14-element vector with elements (in order): CSS values of gamma_f, 
+% gamma_m, alpha_f, alpha_m, 0/1 (fail/pass) for ESS check on gamma, 
+% values of the trace and determinant used to check the ESS condition 
+% for gamma, 0/1 (fail/pass) for ESS check on alpha, values of the trace 
+% and determinant used to check the ESS condition for alpha, equilibrium 
+% values S_f, S_m, I_f, I_m of resident system at CSS.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % extract values of gamma_f, gamma_m, alpha_f, and alpha_m
 gamma_f = init_vals(1);
