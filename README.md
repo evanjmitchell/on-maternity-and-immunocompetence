@@ -1,7 +1,7 @@
 This respository contains all of the Matlab code used in the paper "On maternity and the stronger immune system of women", by E. Mitchell, F. Ubeda, and G. Wild.
 
 # System Requirements
-All files require core Matlab, version R2019a or higher. No special-purpose toolboxes are required. System requirements are described in detail by the manufacturer at <https://www.mathworks.com/support/requirements/matlab-system-requirements.html>.
+All files require core Matlab, version R2019a or higher. This code makes use of the Parallel Computing Toolbox. System requirements are described in detail by the manufacturer at <https://www.mathworks.com/support/requirements/matlab-system-requirements.html>.
 
 # Installation Guide
 A Matlabe license can be purchased from the manufacturer at <https://www.mathworks.com/store/>, but academic institutions often have site licenses available to faculty and students free of charge.
