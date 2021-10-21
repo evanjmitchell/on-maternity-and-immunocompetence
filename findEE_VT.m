@@ -1,7 +1,9 @@
+(* ::Package:: *)
+
 function endemic = findEE_VT(b, v, mu, beta_ff, beta_fm, beta_mf, beta_mm, ...
     gamma_f, gamma_m, alpha_f, alpha_m, stepEE, tol, maxit)
 % A script to approximate the endemic equilibrium of the resident system
-% for a given set of parameter values.
+% for a given set of parameter values .
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % create a set of random initial conditions
 init_vals = 10*rand(50, 4);
@@ -18,7 +20,7 @@ for i = 1:size(init_vals, 1)
         disp('Maximum iterations exceeded');
         return
     end
-    % run Euler's method to iterate the resident system
+    % iterate the resident system
     x0 = init_vals(i, :);
     % if we get overflow in x0, return indicator that system breaks down
     if isnan(sum(x0))
