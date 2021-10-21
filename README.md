@@ -45,7 +45,9 @@ The user should download the following files from this repository and save them 
 
 # Demo
 
-Info on demo file for generating small data set.
+The file demo.m is a demo of how to use the core Matlab files to generate data sets. Make sure that demo.m is saved in the same directory as the above Matlab files. To run the demo, open demo.m and click the green "Run" arrow in the top menu bar.
+
+This file generates a small test data set containing 20 observations and should match with the demo.xlsx file provided in the repository. It takes xx min to run on a laptop equipped with an Intel Core i5-11400H CPU and 8GB of RAM.
 
 # Instructions for Use
 
