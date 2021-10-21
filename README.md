@@ -11,7 +11,7 @@ Core Matlab can be installed following the manufacturer's instructions at <https
 The user should download the following files from this repository and save them to their working directory:
 
 (1) resident_VT.m 
-	- function to define the system of differential equations governing the resident population
+- function to define the system of differential equations governing the resident population
 
 (2) findEE_VT.m 
 	- function to approximate the endemic equilibrium of the resident system
