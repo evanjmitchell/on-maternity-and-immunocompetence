@@ -12,24 +12,34 @@ The user should download the following files from this repository and save them 
 
 (1) resident_VT.m 
 	- function to define the system of differential equations governing the resident population
+
 (2) findEE_VT.m 
 	- function to approximate the endemic equilibrium of the resident system
+
 (3) fitnessAlpha_VT.m 
 	- function to compute the pathogen fitness
+
 (4) fitnessGamma_VT.m 
 	- function to compute the host fitness
+
 (5) sgradAlphaF_VT.m 
 	- function to define the selection gradient for alpha in female hosts
+
 (6) sgradAlphaM_VT.m 
 	- function to define the selection gradient for alpha in male hosts
+
 (7) sgradGammaF_VT.m 
 	- function to define the selection gradient for gamma in female hosts
+
 (8) sgradGammaM_VT.m 
 	- function to define the selection gradient for gamma in male hosts
+
 (9) checkESSAlpha_VT.m 
 	- function to check that the equilibrium values of alpha satisfy the evolutionary stability condition
+
 (10) checkESSGamma_VT.m 
 	- function to check that the equilibrium values of gamma satisfy the evolutionary stability condition
+
 (11) findCSS_VT.m 
 	- function to approximate the convergence stable evolutionary equilibrium
 
