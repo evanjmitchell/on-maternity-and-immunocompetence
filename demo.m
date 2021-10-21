@@ -1,4 +1,4 @@
-tic
+tic;
 % A script to demo the use of the Matlab code files and generate a small example data set .
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % choose a set of cost differences
@@ -49,5 +49,5 @@ parfor i = 1:size(points, 2)
 end
 points(4:11, :) = tmp;
 % save data as xlsx file
-writematrix(points, 'data_demo . xlsx');
-toc
+writematrix(points, 'data_demo.xlsx');
+toc;
