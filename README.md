@@ -6,7 +6,7 @@ All files require core Matlab, version R2019a or higher. This code makes use of 
 
 # Installation Guide
 
-A Matlabe license can be purchased from the manufacturer at <https://www.mathworks.com/store/>, but academic institutions often have site licenses available to faculty and students free of charge.
+A Matlab license can be purchased from the manufacturer at <https://www.mathworks.com/store/>, but academic institutions often have site licenses available to faculty and students free of charge.
 
 Core Matlab can be installed following the manufacturer's instructions at <https://www.mathworks.com/help/install/index.html>. Installation time will vary depending on hardware and operating system.
 
