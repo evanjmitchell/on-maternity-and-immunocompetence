@@ -85,9 +85,7 @@ The file maindemo.m is a Matlab script that demos how we estimate the joint ESS 
 
 # Demo - Section 4 of the Supplement
 
-The file demo.m is a demo of how to use the core Matlab files to generate data sets. Make sure that demo.m is saved in the same directory as the above Matlab files. To run the demo, open demo.m and click the green "Run" arrow in the top menu bar.
-
-This file generates a small test data set containing 20 observations and should match with the data_demo.xlsx file provided in the repository. It takes approximately 764.37 sec (12.74 min) to run on a laptop equipped with an Intel Core i5-11400H CPU and 8GB of RAM.
+The file demo.m is a demo of how to use the core Matlab files to generate data sets. Make sure that demo.m is saved in the same directory as the above Matlab files. To run the demo, open demo.m and click the green "Run" arrow in the top menu bar. This file generates a small test data set containing 20 observations and should match with the data_demo.xlsx file provided in the repository. It takes approximately 764.37 sec (12.74 min) to run on a laptop equipped with an Intel Core i5-11400H CPU and 8GB of RAM.
 
 # Demo - Section 5 of the Supplement
 
