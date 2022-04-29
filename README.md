@@ -1,4 +1,4 @@
-This respository contains all of the Matlab code used in the paper "On maternity and the stronger immune system of women", by E. Mitchell, A. Graham, F. Ubeda, and G. Wild.
+This respository contains all of the Matlab code used in the paper "On maternity and the co-evolution of a stronger immune system in women", by E. Mitchell, A. Graham, F. Ubeda, and G. Wild.
 
 # System Requirements
 
