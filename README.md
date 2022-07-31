@@ -52,4 +52,4 @@ Any of the demo files can be modified to generate larger data sets by adding mor
 
 # Figure Source Code
 
-The file SourceCode.zip contains all of the source code needed to create all of the figures in both the main text and supplement of the paper. To view this code, the user should download the zip file to their local machine. The code associated with each figure is contained in a separate subdirectory within the zip file, accompanied by a README document which outlines each of the files. The files to generate the figures are written in the Python language.
+The file SourceCode.zip contains the source code needed to create all of the figures in both the main text and supplement of the paper. To view this code, the user should download the zip file to their local machine. The code associated with each figure is contained in a separate subdirectory within the zip file, accompanied by a README document which outlines each of the files. The files to generate the figures are written in the Python language.
