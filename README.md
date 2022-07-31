@@ -1,4 +1,4 @@
-This respository contains all of the Matlab code used in the paper "On maternity and the co-evolution of a stronger immune system in women", by E. Mitchell, A. Graham, F. Ubeda, and G. Wild.
+This respository contains all of the code used in the paper "On maternity and the co-evolution of a stronger immune system in women", by E. Mitchell, A. Graham, F. Ubeda, and G. Wild.
 
 # System Requirements
 
@@ -49,3 +49,7 @@ The file maindemoAct.m is a Matlab script that demos how we estimate the joint E
 # Instructions for Use
 
 Any of the demo files can be modified to generate larger data sets by adding more vertical transmission and cost difference values. Other parameters can be modified where they are introduced into the scripts.
+
+# Figure Source Code
+
+The file SourceCode.zip contains all of the source code needed to create all of the figures in both the main text and supplement of the paper. To view this code, the user should download the zip file to their local machine. The code associated with each figure is contained in a separate subdirectory within the zip file, accompanied by a README document which outlines each of the files. The files to generate the figures are written in the Python language.
